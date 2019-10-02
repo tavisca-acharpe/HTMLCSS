@@ -1,48 +1,47 @@
 body {
-    height: 842px;
-    width: 595px;
-    /* to centre page on screen*/
+    height: 10%;
+    width: 45%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.flex-container{
+#Resume{
     display: flex;
     flex-direction: column;
 }
 
-.flex-container div{
+#Resume div{
     position: relative;
 }
 
-.flex1 .box
+#Resume-title .outer-box
 {
     border: 50px cadetblue solid;
 }
 
-.flex1 .box p{
+#Resume-title .outer-box p{
     text-align: center;
     font-style: italic;
     font-weight: bold;
 }
 
-.bord
+.inner-box
 {
-    border: 1px solid black;
+    border: solid black;
     margin: 1%;
 }
 
-.flex2 
+#profile
 {
     display: flex;
     flex-direction: row;
 }
 
-.flex21 
+.profile-info
 {
    width: 33%;
 }
-.flex22 
+.profile-picture
 {
     width: 33%;
 }
@@ -51,10 +50,10 @@ i{
     float: right;
 }
 
-.flex23
+.profile-contact
 {
     width: 33%;
-    margin-left: 10px;
+    margin-left: 2%;
     text-align: left;
 }
 
@@ -65,54 +64,122 @@ img{
 }
 
 
-.flex3
+#Education-title{
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Education{
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.Edu-Skills{
+    width: 20%;
+    margin: 1% 0% 0% 0%;
+    height: 0%;
+    border: 2px solid black;
+}
+
+.Skills{
+    width: 20%;
+   background-color: sandybrown;
+   text-align: center;
+}
+
+.Skills-Exper{
+    width: 20%;
+    margin: 1% 0% 0% 0%;
+    height: 0%;
+    border: 2px solid black;
+}
+
+.Expertice{
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#Education-details
 {
     display: flex;
     flex-direction: row;
 }
 
-.flex31 
+.Education-info
 {
    width: 33%;
 }
-.flex32 
+
+.Skills-info
 {
     text-align: center;
     width: 33%;
     font-weight: bold;
 }
-.flex33
+.Expertice-info
 {
     text-align: center;
     width: 33%;
 }
 
-.flex32 li , .flex33 li{
+.Expertice-info li , .Skills-info li{
  list-style-type: none;
 }
 
-.flex4 
+
+#Experience-title{
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Title-start{
+    width: 40%;
+    margin: 1% 0% 0% 0%;
+    height: 0%;
+    border: 2px solid black;
+}
+
+.Title-name{
+    width: 20%;
+    height: 1%;
+   background-color: sandybrown;
+   text-align: center;
+}
+
+.Title-End{
+    margin: 1% 0% 0% 0%;
+    width: 35%;
+    height: 0%;
+    border: 2px solid black;
+}
+
+
+
+#Experience-details
 {
     display: flex;
     flex-direction: row;
 }
 
-
-.flex41 
+.Work-info
 {
    width: 33%;
 }
-.flex42 
+.Work-duration
 {
     width: 33%;
 }
-.flex43
+.Work-place
 {
     text-align: center;
     width: 33%;
 }   
 
-.smallBox
+.Work-place-container
 {
     margin: 20px;
     float: right;
@@ -120,94 +187,6 @@ img{
     background-color: sandybrown;
     height: 60%;
     width: 75px;
-}
-
-
-.flex5 
-{
-    display: flex;
-    flex-direction: row;
-}
-
-.flex51 
-{
-   width: 33%;
-}
-.flex52 
-{
-    width: 33%;
-}
-.flex53
-{
-    text-align: center;
-    width: 33%;
-}
-
-
-
-.midDiv{
-    margin: 1%;
-    display: flex;
-    flex-direction: row;
-}
-
-.one{
-    width: 20%;
-    border: 2px solid black;
-    text-align: center;
-}
-
-.two{
-    width: 20%;
-    margin: 1% 0% 0% 0%;
-    height: 0%;
-    border: 2px solid black;
-}
-
-.three{
-    width: 20%;
-   background-color: sandybrown;
-   text-align: center;
-}
-
-.four{
-    width: 20%;
-    margin: 1% 0% 0% 0%;
-    height: 0%;
-    border: 2px solid black;
-}
-
-.five{
-    width: 20%;
-    border: 2px solid black;
-    text-align: center;
-}
-
-.btDiv{
-    margin: 1%;
-    display: flex;
-    flex-direction: row;
-}
-
-.bone{
-    width: 40%;
-    margin: 1% 0% 0% 0%;
-    height: 0%;
-    border: 2px solid black;
-}
-
-.btwo{
-    width: 20%;
-    height: 1%;
-   background-color: sandybrown;
-   text-align: center;
-}
-
-.bthree{
-    margin: 1% 0% 0% 0%;
-    width: 35%;
-    height: 0%;
-    border: 2px solid black;
 }
 
 .footerDiv{
