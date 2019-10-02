@@ -209,3 +209,9 @@ img{
     height: 0%;
     border: 2px solid black;
 }
+
+.footerDiv{
+    height: 15px;
+    width: 595px;
+    background-color: sandybrown;
+}
