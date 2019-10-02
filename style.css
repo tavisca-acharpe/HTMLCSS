@@ -40,7 +40,7 @@ body {
 
 .profile-info
 {
-   width: 33%;
+   width: 100%;
 }
 .profile-picture
 {
@@ -53,7 +53,7 @@ i{
 
 .profile-contact
 {
-    width: 33%;
+    width: 100%;
     margin-left: 2%;
     text-align: left;
 }
@@ -111,7 +111,7 @@ img{
 
 .Education-info
 {
-   width: 33%;
+   width: 30%;
 }
 
 .Skills-info
@@ -123,7 +123,7 @@ img{
 .Expertice-info
 {
     text-align: center;
-    width: 33%;
+    width:33%;
 }
 
 .Expertise-info li , .Skills-info li{
