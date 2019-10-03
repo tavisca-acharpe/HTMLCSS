@@ -40,10 +40,12 @@ body {
 
 .profile-info
 {
+    text-align: justify;
    width: 100%;
 }
 .profile-picture
 {
+    margin-left: 2%;
     width: -webkit-fill-available;
 }
 
@@ -105,6 +107,7 @@ img{
 
 #Education-details
 {
+    text-align: justify;
     display: flex;
     flex-direction: row;
 }
